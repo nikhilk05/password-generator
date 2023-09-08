@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password | Generator</title>
+    <link rel="stylesheet" href="pwd_generator.css">
+    <link rel="icon" href="./images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/33fa74657a.js" crossorigin="anonymous"></script>      
+
+</head>
+<body>
+      <div class="container">
+            <div class="wrapper">
+                <div class="display">
+                    <div class="input-field">
+                        <label class="title"><span>Random</span> <br>Password Generator!</label>
+                        <input type="text" name="pwd" id="password">
+                        <img class="copy" src="./images/copy.png" alt="" id="copypwd">
+                    </div>    
+                    <div class="buttons">
+                        <button class="btn"id="weakpwd" type="button"><img class="generate" src="./images/generate.png" alt="">Weak</button>
+                        <button class="btn" id="mediumpwd" type="button"><img class="generate" src="./images/generate.png" alt="">Medium</button>
+                        <button class="btn" id="strongpwd"  type="button"><img class="generate" src="./images/generate.png" alt="">Strong</button>
+                    </div>
+                </div>
+            </div>
+      </div>
+
+    <script src="pwd_generator.js"></script>
+</body>
+</html>
